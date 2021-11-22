@@ -1,3 +1,3 @@
 # INDEX
 
-Please view from 1.PNG to 31.PNG
+Please view from 1.png to 31.png :)
